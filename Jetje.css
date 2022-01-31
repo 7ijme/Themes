@@ -56,6 +56,10 @@ mask > use[href$="lower_badge_masks"] {
 	--info-warning-foreground: hsl(293, 80%, 76%);
 }
 
+#---new-messages-bar {
+	background: hsl(293, 80%, 76%);
+}
+
 /* Bot */
 .bot-XvK26D,
 .botTagRegular-kpctgU,
