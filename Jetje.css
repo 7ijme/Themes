@@ -55,9 +55,9 @@ mask > use[href$="lower_badge_masks"] {
 	--background-mentioned-hover: hsla(323, 68%, 68%, 0.1);
 	--info-warning-foreground: hsl(293, 80%, 76%);
 
-	--interactive-normal: hsl(293, 80%, 76%);
+	/* --interactive-normal: hsl(293, 80%, 76%);
 	--interactive-active: hsl(293, 80%, 76%);
-	--channels-default: hsl(293, 80%, 76%);
+	--channels-default: hsl(293, 80%, 76%); */
 }
 
 /* Unread */
