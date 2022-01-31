@@ -1,0 +1,102 @@
+/**
+ * @name Jetje
+ * @author Tijme#0069
+ * @version 1.0.0
+ * @description Some tweaks.
+*/
+
+/* 
+hsl(193, 56%, 68%)
+hsl(213, 56%, 68%) 
+hsl(223, 56%, 68%) 
+hsl(233, 56%, 68%) 
+hsl(243, 56%, 68%) 
+*/
+
+@font-face {
+	font-family: "Uni Sans Heavy CAPS";
+	src: url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.eot");
+	src: url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.eot?#iefix") format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.woff2") format("woff2"),
+		url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.woff") format("woff"),
+		url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.ttf") format("truetype"),
+		url("//db.onlinewebfonts.com/t/3029259ef4f4389d799fe57da6f29158.svg#Uni Sans Heavy CAPS") format("svg");
+}
+
+/* Jetje's Discord */
+:root {
+	--name: "Jetje's Discord";
+}
+
+.wordmarkWindows-2dq6rw.wordmark-2u86JB > svg {
+	display: none;
+}
+
+.wordmarkWindows-2dq6rw.wordmark-2u86JB {
+	margin-top: 2px;
+}
+
+.wordmarkWindows-2dq6rw.wordmark-2u86JB:before {
+	content: var(--name);
+	font-family: "Uni Sans Heavy CAPS";
+	font-size: 12px;
+	height: 10px;
+	width: 10px;
+}
+
+/* Pings without mask */
+mask > use[href$="lower_badge_masks"] {
+	opacity: 0;
+}
+
+/* Mentions */
+:root {
+	--background-mentioned: hsla(293, 80%, 76%, 0.1);
+	--background-mentioned-hover: hsla(323, 68%, 68%, 0.1);
+	--info-warning-foreground: hsl(293, 80%, 76%);
+}
+
+/* Bot */
+.bot-XvK26D,
+.botTagRegular-kpctgU,
+.botTag-7aX5WZ {
+	background: hsl(293, 80%, 76%);
+}
+
+/* Ping badge */
+.numberBadge-37OJ3S {
+	background-color: hsl(293, 80%, 76%) !important;
+}
+
+/* Screen share button */
+:root {
+	--screenshare-button: var(--background-primary);
+	--active-screenshare-button: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
+	--active-screenshare-button: hsl(250, 80%, 76%);
+}
+/* Not screen sharing */
+button[aria-label="Share Your Screen"].button-1EGGcP.buttonColor-3bP3fX {
+	background: var(--screenshare-button);
+}
+
+/* Sharing screen */
+button[aria-label="Share Your Screen"].button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx {
+	background: var(--active-screenshare-button);
+}
+
+/* Change font */
+/* ::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+	font-family: "Fire Code";
+} */
+
+/* Change font family of code block */
+/* .hljs,
+.codeLine-3a3dbd,
+.codeBlockText-311wOq {
+	font-family: "CaskaydiaCove NF";
+} */
