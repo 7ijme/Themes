@@ -56,8 +56,12 @@ mask > use[href$="lower_badge_masks"] {
 	--info-warning-foreground: hsl(293, 80%, 76%);
 }
 
+/* Unread */
 .divider-2rZFJK {
 	--divider-color: hsl(293, 80%, 76%);
+}
+.unreadPill-3nEWYM {
+	background-color: hsl(293, 80%, 76%);
 }
 
 /* Bot */
