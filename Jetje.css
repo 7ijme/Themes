@@ -54,6 +54,9 @@ mask > use[href$="lower_badge_masks"] {
 	--background-mentioned: hsla(293, 80%, 76%, 0.1);
 	--background-mentioned-hover: hsla(323, 68%, 68%, 0.1);
 	--info-warning-foreground: hsl(293, 80%, 76%);
+}
+
+.divider-2rZFJK {
 	--divider-color: hsl(293, 80%, 76%);
 }
 
